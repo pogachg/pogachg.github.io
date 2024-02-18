@@ -1,8 +1,22 @@
+function readMore() {
+  var dots =document.getElementById("dots");
+  var moreText=document.getElementById("more");
+  varbtnText=document.getElementById("myBtn");
+  if(dots.style.display ==="none") {
+    dots.style.display ="inline";
+    readMoreBtn.innerHTML="Read more";
+    moreText.style.display ="none";
+  } else {
+    dots.style.display ="none";
+    readMoreBtn.innerHTML ="Read less";
+    moreText.style.display ="inline";
+  }
+}
+/*
 var isOriginalText = true; // set default to original text
 
 document.getElementById('changeText').addEventListener('click', function() {
   var paragraphs = document.querySelectorAll('p');
-  var messageContainer = document.getElementById('messageContainer');
   var button = document.getElementById('changeText');
 
   if (isOriginalText) {
@@ -12,8 +26,6 @@ document.getElementById('changeText').addEventListener('click', function() {
     });
 
     // Show the message and change the button text
-    messageContainer.style.display = 'block';
-    messageContainer.textContent = "Thank you for clicking. Lots more to come as I learn Web Development!";
     button.textContent = "Click to Restore";
   } else {
     // Show paragraphs
@@ -22,10 +34,10 @@ document.getElementById('changeText').addEventListener('click', function() {
     });
 
     // Hide the message and reset the button text
-    messageContainer.style.display = 'none';
     button.textContent = "Click Me!";
   }
 
   // Toggle the state
   isOriginalText = !isOriginalText;
 });
+*/

@@ -9,8 +9,8 @@
 </head>
 
 <body>
-  <h1>George Pogach</h1>
-  <img src="GeorgeDrivingBoat.jpg" class="smaller-image">
+  <h1>Shark Attack Checker</h1>
+  <!--  <img src="GeorgeDrivingBoat.jpg" class="smaller-image">
   <div id="messageContainer" style="display: none;"></div>
   <p>I'm a hard-working, high school junior, learning web development on my way to becoming a data scientist. I've
     always picked up algorithmic learning quickly and it is what I enjoy most (apologies to my history and English
@@ -19,9 +19,19 @@
     very lucrative, as I have now saved enough to pay for my first year of college!</p>
   <p>I'm currently enrolled in this Web Development class as well as AP Computer Science Principles, AP Statistics, and
     Honors Precalculus. This summer, I am planning to take my first actual college class - Calculus.</p>
-  </div>
+  -->
+
+  <p>Perhaps I have seen Jaws too many times, but I’m very scared of being bitten/eaten by a shark and whenever we go to
+    an ocean, I check the shark attack history for that location. This site will provide a quick and easy way for
+    someone to do a similar check – “How risky is this location for an unprovoked shark attack compared with other
+    locations?”. I envision this could be a step in anyone’s beach vacation planning; <span id="dots">...</span><span id="more">it would especially be worth it if
+    it saves someone from becoming a shark’s dinner (although I’ll never know for sure). Just about every year, there are shark attacks. This site will compile the data both by frequency and by date to provide the user with a relative idea of how safe their chosen location is compared with other potential locations.
+    Most shark bite data only shows how many attacks, skewing the data to always look rare. It is more useful to provide
+    relative data so the user has a better idea whether this location is considered high risk or not. The recency of
+    shark attacks will be a big factor in the relative risk score and only unprovoked attacks will be included. </span></p>
+
   <div class="button-container">
-    <button id="changeText">Click Me!</button>
+    <button onclick="readMore()" id="readMoreBtn">Read More</button>
   </div>
 
   <script src="script.js"></script>

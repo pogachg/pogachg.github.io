@@ -5,6 +5,7 @@ body {
   font-family: Arial, sans-serif;
   padding-left: 10px;
 }
+#more{display:none;}
 
 h1 {
   color: #333;
