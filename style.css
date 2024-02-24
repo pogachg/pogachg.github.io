@@ -5,7 +5,10 @@ body {
   font-family: Arial, sans-serif;
   padding-left: 10px;
 }
-#more{display:none;}
+
+#more {
+  display: none;
+}
 
 h1 {
   color: #333;
@@ -28,6 +31,37 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
 .button-container {
-  text-align: center; 
+  text-align: center;
+}
+
+.contact {
+  background-color: cyan;
+  padding: 10px;
+  border: 1px solid blue;
+  width: 50%;
+  margin-left: auto;
+  text-align: center;
+}
+
+.inputGrouping {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+.inputGrouping textarea {
+  width: 60%
+}
+.contact-form button {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: darkviolet;
 }
