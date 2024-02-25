@@ -109,6 +109,10 @@ p.subheader {
   color: #0077cc;
 }
 
+head {
+  padding: 100px;
+}
+
 @media (max-width: 600px) {
   #barPlot {
     max-width: 100%;
