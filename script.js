@@ -32,6 +32,15 @@ para.style.backgroundColor ='blue'; // Sets the background color of the paragrap
 para.style.padding ='10px'; // Sets the padding of the paragraph to 10 pixels
 para.style.width ='250px'; // Sets the width of the paragraph to 250 pixels
 para.style.textAlign ='center'; // Sets the text alignment of the paragraph to center
+
+document.getElementById('sharkDataLink').addEventListener('mouseover', function() {
+    this.style.backgroundColor = '#005fa3';
+});
+
+document.getElementById('sharkDataLink').addEventListener('mouseout', function() {
+    this.style.backgroundColor = '#0077cc';
+});
+
 /*
 var isOriginalText = true; // set default to original text
 
@@ -61,3 +70,4 @@ document.getElementById('changeText').addEventListener('click', function() {
   isOriginalText = !isOriginalText;
 });
 */
+

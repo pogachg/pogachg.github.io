@@ -51,9 +51,11 @@ button:hover {
   margin-bottom: 10px;
   line-height: 1;
 }
+
 .inputGrouping textarea {
   width: 60%
 }
+
 .contact-form button {
   background-color: purple;
   color: white;
@@ -64,4 +66,82 @@ button:hover {
 
 .contact-form button:hover {
   background-color: darkviolet;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#barPlot {
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  color: #0077cc;
+}
+
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #003366;
+  font-size: 36px;
+  padding-top: 20px;
+  margin-top: 0;
+}
+
+p.subheader {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #006666;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+  #barPlot {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    padding-top: 10px;
+  }
+
+  p.subheader {
+    font-size: 14px;
+  }
+}
+
+
+.shark-button {
+  background-color: #0077cc;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.shark-button:hover {
+  background-color: #005fa3;
 }
