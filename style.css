@@ -137,6 +137,9 @@ p.subheader {
       padding: 10px; 
       text-align: left; 
   }
+  body {
+    padding-top: 60px;
+  }
 }
 
 
