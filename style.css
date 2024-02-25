@@ -3,7 +3,9 @@ body {
   height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
   padding-left: 10px;
+  padding-top: 30px;
 }
 
 #more {
@@ -32,7 +34,7 @@ button:hover {
   background-color: #0056b3;
 }
 
-.button-container {
+button-container {
   text-align: center;
 }
 
@@ -41,7 +43,7 @@ button:hover {
   padding: 10px;
   border: 1px solid blue;
   width: 50%;
-  margin-left: auto;
+  margin-left: 25%;
   text-align: center;
 }
 
@@ -74,22 +76,6 @@ button:hover {
   margin-top: 50px;
 }
 
-#barPlot {
-  background-color: #f0f8ff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px auto;
-  max-width: 90%;
-}
-
-
-.title {
-  font-size: 24px;
-  text-align: center;
-  color: #0077cc;
-}
-
 h1 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
@@ -106,6 +92,21 @@ p.subheader {
   font-size: 18px;
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+#barPlot {
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  color: #0077cc;
 }
 
 @media (max-width: 480px) {
@@ -126,6 +127,16 @@ p.subheader {
   p.subheader {
     font-size: 14px;
   }
+  ul, li {
+      float: none;
+      display: block;
+      width: 100%;
+  }
+
+  li a {
+      padding: 10px; 
+      text-align: left; 
+  }
 }
 
 
@@ -144,4 +155,39 @@ p.subheader {
 
 .shark-button:hover {
   background-color: #005fa3;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0277bd;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+li a:hover {
+  background-color: #01579b;
+}
+
+
+ul:after {
+  content: "";
+  display: table;
+  clear: both;
 }
